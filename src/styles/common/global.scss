@@ -1,4 +1,38 @@
-@import '../../../node_modules/normalize.css/normalize.css';
+//@import '../../../node_modules/normalize.css/normalize.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  min-width: 1440px;
+  min-height: 980px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3c425f;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
 
 .visually-hidden {
   position: absolute;
@@ -8,18 +42,4 @@
   height: 1px;
   width: 1px;
   overflow: hidden;
-}
-
-html,
-body {
-  min-width: 1440px;
-  min-height: 980px;
-}
-
-body {
-  /* Временно для сетки */
-  background-image: url('https://assets.htmlacademy.ru/content/skills/6/case-01/index.jpg');
-  background-size: 1440px auto;
-  background-repeat: no-repeat;
-  background-position: top center;
 }

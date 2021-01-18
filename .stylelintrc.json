@@ -22,6 +22,8 @@
     "at-rule-semicolon-space-before": "never",
     "selector-max-class": 2,
     "unit-allowed-list": [
+      "fr",
+      "deg",
       "em",
       "rem",
       "%",
